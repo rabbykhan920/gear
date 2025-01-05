@@ -1,0 +1,201 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    
+    /* banner start */
+    .banner{
+        display: flex;
+        align-items: center;
+        flex-direction: column-reverse; 
+        margin-bottom: 30px;
+    }
+    
+    .b-content{
+        margin-top: 20px;
+        padding-left: 20px;
+        width: 100%;
+    }
+    
+    .b-content h2{
+        font-size: 20px;
+        margin: 0;
+    }
+    
+    .b-content p{
+        margin-top: 4px;
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+    .Preebook{
+        padding: 3px 15px !important;
+    }
+   
+    .b-img{
+    width: 100%;
+    }
+    .b-img img{
+        width: 100%;
+    }
+    
+    /* banner end */
+    /* logo */
+    .logo{
+     align-items: center;
+    }
+    .logo img{
+        width: 100px;
+    }
+    /* logo */
+     /* popular start */
+     .popular{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        align-items: center !important; 
+        justify-content: center;
+     }
+   .p-content h3{
+    font-size: 20px;
+   }
+   .p-content h5{
+    font-size: 18px;
+   }
+   /* popular end */
+   /* influencer */
+   .containar{
+    display: flex;
+    justify-content: center;
+   }
+   .Influencer{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   }
+   .i-img{
+    width: 50%;
+   }
+   .i-content{
+    width:50%;
+   }
+   
+   /* influencer */
+
+}
+
+  /* Small devices (landscape phones, 576px and up) */
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    
+    /* banner start */
+    .banner{
+            flex-direction: column-reverse;
+            align-items: center;
+    }
+    
+    .b-content{
+        margin-top: 30px;
+    }
+    .i-content h2{
+    .b-content h2{
+        font-size: 20px;
+        margin: 0;
+    }
+   
+    .b-content p{
+        margin-top: 5px;
+        font-size: 15px;
+    }
+    .Preebook{
+        padding: 5px 20px !important;
+    }
+  }
+   
+     
+   /* banner end */
+   /* popular start */
+   .popular{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+   }
+   .p-content h3{
+    font-size: 20px;
+   }
+   .p-content h5{
+    font-size: 18px;
+   }
+   /* popular end */
+   /* footer */
+   .footer{
+    padding: 20px;
+   }
+   /* footer */
+  } 
+   /* Medium devices (tablets, 768px and up) */
+  @media (min-width: 768px) and (max-width: 991.98px) {
+  
+    /* banner start */
+    .banner{
+        display: flex;
+        align-items: center;
+        flex-direction: column-reverse; 
+        
+    }
+
+    .b-content{
+     
+    }
+   
+    .b-content h2{
+        font-size: 25px;
+        margin-top: 16px;
+    }
+   
+    .b-content p{
+        font-size: 15px;
+    }
+    
+    .b-img{
+    width: 50%;
+    }
+    
+    .b-img img{
+        width: 100%;
+    }
+    .Preebook{
+        padding: 7px 30px !important;
+    }
+    /* banner end */
+    /* popular start */
+
+    .p-content h3{
+        font-size: 20px;
+       }
+    .p-content h5{
+        font-size: 18px;
+       }
+       /* popular end */
+  }
+       /* influencer start */
+       .Influencer{ 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+       }
+       .i-img{
+        width: 100%;
+       }
+       .i-content{
+        width: 90%;
+       }
+       /* influencer end */
+  /* Large devices (desktops, 992px and up) */
+  @media (min-width: 992px) and (max-width: 1199.98px) {
+
+  }
+
+   /* Extra large devices (large desktops, 1200px and up) */
+  @media (min-width: 1200px) and (max-width:1399.98px){
+
+  }
+   /* Extra Extra large devices (large desktops, 1400px and up) */
+  @media (min-width: 1400px) {
+
+  }
