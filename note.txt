@@ -1,0 +1,38 @@
+               320 screen
+     
+          1. b-img width problem
+          2.i-img width problem 
+          3.i-content extra padding left witch is not suitable
+          
+
+               320 screen
+               578 screen
+
+          1.call grid columns (2,1) witch in not perfect 
+          2.i-img and i-content padding-left not perfect
+
+               578 screen
+               768 screen
+
+         1.popular div missing
+         2.display grid and grid columns (2,1fr) is perfectly fit witch is missing 
+
+               768 screen
+               1024 screen
+
+         this screen is perfect 
+
+               1024 screen
+               1440 screen
+
+        this is also good
+
+               1440 screen
+   
+          some silly mistake in 320 screen, 578 screen , 768 screen
+                  
+        after all every thing is good keep it up
+                
+
+
+  

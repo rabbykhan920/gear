@@ -1,25 +1,18 @@
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
-    
     /* banner start */
     .banner{
-        display: flex;
+        flex-direction: column-reverse;
         align-items: center;
-        flex-direction: column-reverse; 
-        margin-bottom: 30px;
     }
-    
     .b-content{
         margin-top: 20px;
-        padding-left: 20px;
-        width: 100%;
+        padding-left: 30px;
     }
-    
     .b-content h2{
         font-size: 20px;
         margin: 0;
     }
-    
     .b-content p{
         margin-top: 4px;
         font-size: 14px;
@@ -28,29 +21,18 @@
     .Preebook{
         padding: 3px 15px !important;
     }
-   
     .b-img{
-    width: 100%;
+        width: 100%;
     }
     .b-img img{
         width: 100%;
     }
-    
     /* banner end */
-    /* logo */
-    .logo{
-     align-items: center;
-    }
-    .logo img{
-        width: 100px;
-    }
-    /* logo */
      /* popular start */
      .popular{
         display: grid;
         grid-template-columns: repeat(1,1fr);
-        align-items: center !important; 
-        justify-content: center;
+        align-items: center;
      }
    .p-content h3{
     font-size: 20px;
@@ -59,45 +41,56 @@
     font-size: 18px;
    }
    /* popular end */
-   /* influencer */
-   .containar{
-    display: flex;
-    justify-content: center;
+    /* Influencer start */
+    .Influencer{
+        flex-direction: column;
+       }
+       .i-img{
+       width: 100%;
+       }
+       .i-img img{
+        width: 100%;
+       }
+       .i-content{
+        padding-left: 20px;
+       }
+       .i-content h2{
+        font-size: 16px;
+        font-weight: 700;
+        margin-top: 20px;
+       }
+       .i-content p{
+        margin-top: 10px;
+        font-size: 14px;
+        font-weight: 500;
+        margin-bottom: 17px;
+       }
+       .Preebook{
+        padding: 3px 15px !important;
+       }
+       /* influencer end */
+        /* footer start */
+   footer h3{
+    font-size: 18px;
+    font-weight: 550;
    }
-   .Influencer{
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-   }
-   .i-img{
-    width: 50%;
-   }
-   .i-content{
-    width:50%;
-   }
-   
-   /* influencer */
-
-}
+   /* footer end */
+  }
 
   /* Small devices (landscape phones, 576px and up) */
   @media (min-width: 576px) and (max-width: 767.98px) {
-    
     /* banner start */
     .banner{
-            flex-direction: column-reverse;
-            align-items: center;
+        flex-direction: column-reverse;
+        align-items: center;
     }
-    
     .b-content{
         margin-top: 30px;
     }
-    .i-content h2{
     .b-content h2{
         font-size: 20px;
         margin: 0;
     }
-   
     .b-content p{
         margin-top: 5px;
         font-size: 15px;
@@ -105,14 +98,12 @@
     .Preebook{
         padding: 5px 20px !important;
     }
-  }
-   
-     
    /* banner end */
    /* popular start */
-   .popular{
+   .popular{ 
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(1,1fr);
+    margin-bottom: 75px;
    }
    .p-content h3{
     font-size: 20px;
@@ -121,40 +112,57 @@
     font-size: 18px;
    }
    /* popular end */
-   /* footer */
-   .footer{
-    padding: 20px;
+   /* Influencer start */
+   .Influencer{
+    flex-direction: column;
    }
-   /* footer */
+   .i-img{
+    padding-left: 80px;
+   }
+   .i-img img{
+    width: 415px;
+   }
+   .i-content{
+    padding-left: 80px;
+   }
+   .i-content h2{
+    font-size: 22px;
+    font-weight: 700;
+    margin-top: 25px;
+   }
+   .i-content p{
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 17px;
+   }
+   .Preebook{
+    padding: 3px 15px !important;
+   }
+   /* influencer end */
+   /* footer start */
+   footer h3{
+    font-size: 20px;
+    font-weight: 550;
+   }
+   /* footer end */
   } 
    /* Medium devices (tablets, 768px and up) */
   @media (min-width: 768px) and (max-width: 991.98px) {
-  
     /* banner start */
-    .banner{
-        display: flex;
-        align-items: center;
-        flex-direction: column-reverse; 
-        
-    }
-
     .b-content{
-     
+     width: 40%;
     }
-   
     .b-content h2{
         font-size: 25px;
         margin-top: 16px;
     }
-   
     .b-content p{
         font-size: 15px;
     }
-    
     .b-img{
-    width: 50%;
+    width: 40%;
     }
-    
     .b-img img{
         width: 100%;
     }
@@ -163,7 +171,11 @@
     }
     /* banner end */
     /* popular start */
-
+    .popular{ 
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        margin-bottom: 75px;
+       }
     .p-content h3{
         font-size: 20px;
        }
@@ -171,21 +183,39 @@
         font-size: 18px;
        }
        /* popular end */
-  }
        /* influencer start */
-       .Influencer{ 
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-       }
        .i-img{
-        width: 100%;
+        margin-left: 60px;
+        margin-top: 24px;
+       }
+       .i-img img{
+        width: 380px;
        }
        .i-content{
-        width: 90%;
+        margin-left: 60px;
+       }
+       .i-content p{
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: 15px;
+       }
+       .i-content h2{
+        font-size: 19px;
+       }
+       .Preebook{
+        padding: 5px 20px;
        }
        /* influencer end */
+       /* footer start */
+       footer h3{
+        font-size: 22px;
+        font-weight: 550;
+       }
+       /* footer end */
+  }
+
+
   /* Large devices (desktops, 992px and up) */
   @media (min-width: 992px) and (max-width: 1199.98px) {
 
